@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(180deg,rgb(42, 42, 233),rgb(192, 58, 192));
+    overflow-x: hidden;
+}
+#header{
+    width: 100%;
+    text-align: center;
+    padding: 6px;
+    margin-top: 10px;
+    
+}
+#header .welcome{
+    text-align: center;
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(243, 174, 24);
+    font-size:50px;
+    font: bolder;
+}
+.separator{
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    background-color: rgb(3, 3, 116);
+}
+.description .desc_head .types{
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(212, 228, 212);
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+.examples{
+    width: auto;
+    display: flex;
+    justify-content:center ;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.section{
+    border-radius: 4px;
+    margin-right: 100px;
+    text-align: center;
+    margin-left: 100px;
+}
+.section h1{
+    color: white;
+}
+img{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border-radius: 32px;
+
+}
+.pricing{
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(212, 228, 212);
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+.price{
+    text-align: center;
+}
+
+#more_in{
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 32px;
+    margin: 40px;
+    margin-top: 20px;
+    background-size: 100%;
+    background-image: url("data:image/png;base64,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");
+}
